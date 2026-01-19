@@ -46,4 +46,4 @@ Try a hard boiled egg and notice the different textures and flavor profiles as y
 
 ### The Recipe: Hard Boiled Egg
 
-See my post next week for my recipe!
+See my [next post](2026-01-18-product-review-elite-gourmet-egg-cooker.md) for more details!
