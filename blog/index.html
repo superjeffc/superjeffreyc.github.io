@@ -48,19 +48,6 @@ title: Unsalted & Unsweetened
           <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
         </div>
       </a>
-
-      {% if forloop.index == 2 or site.posts.size < 2 %}
-        <section class="subscribe-break">
-            <h2>stay intentional.</h2>
-            <p>one newsletter every two weeks, focused on intentional eating.</p>
-            <form id="subscribe-form" class="subscribe-form">
-                <input type="email" id="email" placeholder="your email address" required>
-                <div class="cf-turnstile" data-sitekey="0x4AAAAAACJ8wpwNdyGZQO2V"></div>
-                <button type="submit" id="sub-button">subscribe</button>
-            </form>
-            <p id="msg" style="display:none; margin-top:10px; font-size:1.5rem;"></p>
-        </section>
-      {% endif %}
     {% endfor %}
   </main>
 </div>

@@ -146,51 +146,6 @@ header.blog-header {
     max-width: 700px; /* Keeps post excerpts easy to read */
 }
 
-.subscribe-break {
-    background: var(--accent-color);
-    color: white;
-    padding: 80px 40px; /* More vertical padding for impact */
-    margin: 100px 0;
-    text-align: center;
-}
-
-.subscribe-break h2 {
-    font-family: var(--font-serif);
-    font-weight: 400;
-    font-size: 2.5rem;
-    margin-top: 0;
-    text-transform: lowercase;
-}
-
-.subscribe-form {
-    display: flex;
-    justify-content: center;
-    align-items: center; /* Ensures vertical alignment */
-    gap: 15px;
-    margin-top: 35px;
-    flex-wrap: wrap; /* Allows Turnstile to wrap on smaller screens */
-}
-
-.subscribe-form input {
-    padding: 15px 20px;
-    border: none;
-    width: 100%;       /* Change from 350px to 100% */
-    max-width: 350px;  /* Keeps it from getting too wide on desktop */
-    font-size: 1rem;
-    box-sizing: border-box; /* Ensures padding doesn't add to width */
-}
-
-.subscribe-form button {
-    background: #2c2c2c;
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: background 0.2s;
-    font-size: 1rem;
-}
-
 footer.blog-footer {
     text-align: center;
     padding: 100px 20px;

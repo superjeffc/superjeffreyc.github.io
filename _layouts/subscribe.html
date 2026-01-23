@@ -11,7 +11,7 @@
 		<meta name="author" content="Jeff Chan">
         <meta name="robots" content="index, follow">
 
-        <meta property="og:type" content="{% if page.url == '/contact' %}profile{% else %}website{% endif %}">
+        <meta property="og:type" content="{% if page.url == '/subscribe' %}profile{% else %}website{% endif %}">
         <meta property="og:url" content="https://superjeffc.com{{ page.url }}">
         <meta property="og:title" content="{{ page.title }}">
         <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}Explore software projects, authentic home-cooked recipes, and piano arrangements by Jeff Chan.{% endif %}">
@@ -21,7 +21,7 @@
         <meta name="twitter:title" content="{{ page.title }}">
         <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}Software engineering, cooking recipes, and piano by Jeff Chan.{% endif %}">
 
-		<link rel="stylesheet" type="text/css" href="/css/contact.css">
+		<link rel="stylesheet" type="text/css" href="/css/subscribe.css">
 		<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<link rel="shortcut icon" href="/favicon.ico" />
@@ -29,7 +29,8 @@
 		<link rel="manifest" href="/site.webmanifest" />
 
 		<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
-		<script src="/js/contact.js" defer></script>
+		<script src="/js/subscribe.js" defer></script>
+
 		<script type="application/ld+json">
 		{
 		"@context": "https://schema.org",
