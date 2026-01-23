@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (response.ok) {
                 subscribeForm.style.display = 'none';
-                msg.innerText = 'please check your inbox to confirm your email.';
+                msg.innerText = 'Please check your inbox to confirm your email.';
             } else {
                 msg.innerText = result.error || 'Something went wrong.';
                 btn.disabled = false;
